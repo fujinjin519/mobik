@@ -1,2 +1,6 @@
-.img{width: 160px;height: 36px;}
-.li{margin:0 }
+.img{width:160px;height: 36px;}
+.main-links{list-style: none;float: left;widows: 400px; ;}
+.pic{background-image:url(https://mobike.com/cn/assets/themes/moby/img/logo-text.svg);width:160px ;height: 36px;background-repeat: no-repeat;background-size: contain;;}    
+ul{list-style: none;float: left;width: 200px;}
+.fonter list{width: 400px;float: right;}
+.zong{margin: 0 auto;}
