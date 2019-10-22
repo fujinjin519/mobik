@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+.text{display: inline-block;text-align: left; vertical-align: middle;}
+.text h4{font-size: 16px;font-weight: 400;}
+.text p{font-size: 16px;font-weight: 300;}
+.meta-links{width: 1080px;margin:0 auto;}
+.meta-link {
+    overflow: hidden;
+    float: left;
+    width: 33.33%;
+    padding: 45px 0px ;
+}
+.meta-link:nth-child(2){text-align: center;}
+.meta-link:nth-child(3){text-align: right;}
+
+
+.icon-1 {
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-wechat.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-2 {
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-rp.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon-3 {
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-credit.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle
+}

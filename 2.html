@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>padding内填充 magin外间距</title>
+    <style>
+        .main{margin-left: ;}
+    </style>
+    区别：padding 会让元素的实际显示效果变大
+         magin 不会让元素的实际效果变大 和其他元素产生一个间距
+    正常盒子模型的最后的计算公式：
+        实际宽度=width+padding-left/right+border-left/right
+        实际高度=width+padding-top/bottom+border-top/bottom
+
+
+    怪异盒子模型的计算公式：
+    box-sizing:border-box;
+    实际宽度= width{padding和border已经算过了}
+    实际高度= hight{padding和border已经算过了}
+    
+</head>
+<body>
+    <!-- 方位：顺时针 上 右 下 左
+    padding:10px  上 右 下 左 =10px
+    padding:10px 20px 上=下 10px  左右=20px
+    padding :10px 20px 30px  上=10  左右=20  下=30
+    padding: 10px 20px 10px 30px  上右下左（padding-top/right/bottom/left)
+    
+    <!-- 
+        magin{margin-left} 
+        
+     -->
+    
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-left: -2px;
+}
+
+.item {
+    float: left;
+    width: 25%;
+    height: 260px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    
+    background-size: cover;
+    background-position: center;
+
+}
+.item1{background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-01.jpg);}
+
+.item2 {
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-02.jpg);
+}
+
+.item3{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-03.jpg);
+}
+
+.item4{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-04.jpg);
+}
+
+
+
+.main {
+    margin-left: -2px;
+}
